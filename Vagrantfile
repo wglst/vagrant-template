@@ -102,7 +102,7 @@ Vagrant.configure("2") do |config|
     config.hostmanager.manage_host = true
     config.hostmanager.ignore_private_ip = false
     config.hostmanager.include_offline = false
-    config.hostmanager.aliases = %w(harout.dev harry.dev)
+    config.hostmanager.aliases = %w()
   end
 
   # Create a hostname, don't forget to put it to the `hosts` file
